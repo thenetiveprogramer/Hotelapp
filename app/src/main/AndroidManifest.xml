@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hotelapp2"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity_main18"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main17"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main16"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main15"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main14"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main13"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main12"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main11"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main7"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main6"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main5"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main4"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main3"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
